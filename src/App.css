@@ -1,0 +1,71 @@
+.container1{
+  background-color: rgb(198, 223, 223);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container-in{
+  height: 300px;
+  width: 300px;
+  margin: 200px;
+  padding: 60px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+ 
+.welcome{
+  margin-top: 50px;
+}
+
+.text{
+  background-color: aqua;
+  font-weight: 800;
+  margin-top: -15px;
+}
+
+.text2{
+  font-size: 10px;
+}
+
+.kotak-navbar{
+  /* background-color: black; */
+  margin-top: 40px;
+  margin-bottom: -15px;
+  
+}
+
+.li-navbar{
+  border: solid black 1px;
+  border-radius: 4px;
+  height: 40px;
+  margin-top: -10px;
+  text-align: justify;
+  padding: 6px;
+  align-items: center;  
+  background-color: red;
+}
+
+.in-navbar{
+  margin-top: 40px;
+  margin-bottom: -10px;
+}
+
+.li-navbar2{
+  background-color: green;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+  font-size: smaller;
+  justify-content: center;
+  align-items: center;
+}
