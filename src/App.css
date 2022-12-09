@@ -41,6 +41,11 @@
     padding: 30px;
     font-size: small;
   }
+
+  .body-li{
+    list-style-type: none;
+    
+  }
   
   .ak{
     padding: 10px;
@@ -50,7 +55,8 @@
     margin-bottom: 10px;
     margin-right: 20px;
     border-radius: 7px;
-  
+    font-size: smaller;  
+    font-weight: 500;
   }
   
   .pass{
@@ -61,7 +67,8 @@
     margin-bottom: 10px;
     margin-right: 20px;
     border-radius: 7px;
-    
+    font-size: smaller;  
+    font-weight: 500;
   }
   
   .mas{
@@ -74,24 +81,39 @@
     border-radius: 7px;
     display: flex;
     justify-content: center;
+    font-size: smaller;  
     font-weight: 500;
     color: white;
-    font-size: smaller;
-    
   }
   
+  .mas-li :hover{
+    background-color: crimson;
+    transition: 0.2s;
+    transition-delay: 0.3s;
+  }
   .footer{
     display: flex;
     justify-content: center;
     padding: 20px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  .footer :hover{
+    background-color: crimson;
+    border-radius: 3px;
+    transition: 0.2s;
+
   }
   
   .lup{
-  margin-right: 10px;
-  font-size: small;
+    margin-right: 10px;
+    font-size: small;
   }
   
   .res{
-  color: blue;
-  font-size: small;
+    color: blue;
+    font-size: small;
   }
+
+    

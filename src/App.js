@@ -13,13 +13,17 @@ function App() {
           <div className='sel'>Selamat Datang Dashboard Admin Manajemen</div>
           <div className='das'>Data Kemenag.AI</div>
           <div className='sil'>Silahkan Isi Akun dan Password yang telah terdaftar</div>
-          <div className='ak'>Akun</div>
-          <div className='pass'>Password</div>
-          <div className='mas'>MASUK</div>
+          <div className='body-li'>
+            <li className='ak'>Akun</li>
+            <li className='pass'>Password</li>
+            <div className='mas-li'>
+              <li className='mas'>Masuk</li>
+            </div>
+          </div>
         </div>
         <div className='footer'>
-          <div className='lup'>Lupa Password?</div>
-          <div className='res'>Reset kata sandi</div>
+          <li className='lup'>Lupa Password?</li>
+          <li className='res'>Reset kata sandi</li>
         </div>
 
       </div>
