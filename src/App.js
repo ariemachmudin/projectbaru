@@ -14,10 +14,14 @@ function App() {
           <div className='das'>Data Kemenag.AI</div>
           <div className='sil'>Silahkan Isi Akun dan Password yang telah terdaftar</div>
           <div className='body-li'>
-            <li className='ak'>Akun</li>
-            <li className='pass'>Password</li>
+            <div className='ak'>
+              <input type= "text" placeholder='Akun'/>
+            </div>
+            <div className='pass'>
+              <input type="text" placeholder='Password'/>
+            </div>
             <div className='mas-li'>
-              <li className='mas'>Masuk</li>
+              <span className='mas'>Masuk</span>
             </div>
           </div>
         </div>
