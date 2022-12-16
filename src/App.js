@@ -15,9 +15,11 @@ function App() {
           <div className='sil'>Silahkan Isi Akun dan Password yang telah terdaftar</div>
           <div className='body-li'>
             <div className='ak'>
-              <input type= "text" placeholder='Akun'/>
-            </div>
-            <div className='pass'>
+              <img src='images/user.png' alt='logo' width="10%" height="50%" />
+              <input type= "text" placeholder='Akun' />
+            </div>            
+            <div className='ak'>
+            <img src='images/password.png' alt='logo' width="10%" height="50%" />
               <input type="text" placeholder='Password'/>
             </div>
             <div className='mas-li'>

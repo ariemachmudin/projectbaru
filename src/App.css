@@ -1,7 +1,7 @@
 .sheet{
     background-color: rgb(222, 234, 234);
     width: 100vw;
-    height: 100vh;
+        height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,20 +54,22 @@
   }
   
   .ak{
-    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    border: 3px solid rgb(183, 189, 196);
+    border-radius: 7px;
+    margin-bottom: 5px;
+    padding: 5px;  
     
   }
   .ak input{
-    width: 98%;
-    height: 30px;
-    border-radius: 7px;
-    border: solid rgb(183, 189, 196);
-    outline: none;
+    width: 95%;
+    height: 25px;
+    border: solid rgb(248, 249, 250);  
   }
   
-  .pass{
-    width: 350px;  
-  }
   .pass input{
     width: 98%;
     height: 30px;
